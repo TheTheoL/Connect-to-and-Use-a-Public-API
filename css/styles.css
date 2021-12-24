@@ -1,0 +1,154 @@
+/* general styling. Font, etc. */
+.content-wrap {
+
+  justify-content: center;
+}
+header {
+  padding-bottom: 5px;
+  padding-top: 10px;
+
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 85px;
+  padding-left: 10px;
+
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.email {
+  margin-bottom: 10px;
+}
+.name {
+  margin-top: 20px;
+}
+.phone {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+html {
+  background-color: #EAEAEA;
+}
+
+/* the body element will be the container for the absolute positioning */
+body {
+
+height: 100vh;
+}
+.container {
+    min-height: 100%;
+    max-width: 1500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Target the overlay element. This will create the almost
+transparent background of the modal that covers the whole window */
+.overlay {
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.6)
+}
+
+
+/* Model container */
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    background-size: 100%;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+
+}
+hr {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+}
+.model-content p {
+  font-size: 20px;
+}
+.avatar {
+  border-radius: 50%;
+  width: auto;
+  float: left;
+
+}
+.card {
+  width: 25%;
+  display: flex;
+  padding: 20px;
+  border: solid 1px #778;
+  border-radius: 3px;
+  background-color: #F7F7F7;
+
+}
+
+/* Close Button */
+.modal-close {
+position: absolute;
+right: 15px;
+top: 5px;
+cursor: pointer;
+}
+
+.modal-prev {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.modal-next {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+
+
+.hidden {
+display: none;
+}
+
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.text-container {
+  width: 90%;
+  padding-left: 10px;
+}
